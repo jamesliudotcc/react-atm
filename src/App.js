@@ -8,11 +8,14 @@ class App extends Component {
     return (
       <div id="content">
         <div id="nav">
-          <div id="logo"><img src={logo} alt="General Assembly logo" /></div>
+          <div id="logo">
+            <img src={logo} alt="General Assembly logo" />
+          </div>
           <div id="title">Bank of GA</div>
         </div>
         <Account name="Checking" />
-        <div className="clear"></div>
+        <Account name="Saving" />
+        <div className="clear" />
       </div>
     );
   }
